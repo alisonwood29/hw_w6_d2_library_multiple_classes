@@ -10,7 +10,7 @@ public class TestLibrary {
 
     @Before
     public void before(){
-        library = new Library();
+        library = new Library(10);
         book = new Book("Catcher in the Rye");
     }
 
@@ -18,5 +18,12 @@ public class TestLibrary {
     public void stockStartsEmpty(){
         assertEquals(0, library.stockCount());
     }
+
+    @Test
+    public void canAddBook(){
+        library.addBook(book);
+        assertEquals(1, library.stockCount());
+    }
+    
 
 }
