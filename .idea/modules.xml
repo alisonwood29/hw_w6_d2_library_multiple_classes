@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LibraryMultipleClassHomework.iml" filepath="$PROJECT_DIR$/.idea/modules/LibraryMultipleClassHomework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LibraryMultipleClassHomework_main.iml" filepath="$PROJECT_DIR$/.idea/modules/LibraryMultipleClassHomework_main.iml" group="LibraryMultipleClassHomework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LibraryMultipleClassHomework_test.iml" filepath="$PROJECT_DIR$/.idea/modules/LibraryMultipleClassHomework_test.iml" group="LibraryMultipleClassHomework" />
+    </modules>
+  </component>
+</project>
