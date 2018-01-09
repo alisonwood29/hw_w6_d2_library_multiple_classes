@@ -11,7 +11,7 @@ public class TestLibrary {
     @Before
     public void before(){
         library = new Library(10);
-        book = new Book("Catcher in the Rye");
+        book = new Book("Catcher in the Rye", "fiction");
     }
 
     @Test
@@ -31,6 +31,13 @@ public class TestLibrary {
             library.addBook(book);
         }
         assertEquals(10, library.stockCount());
-        }
+    }
+    @Test
+    public void canRemoveBook(){
+        library.addBook(book);
+        Book removedBook = library.removeBook();
+        assertEquals(0, library.stockCount());
+    }
+
     }
 

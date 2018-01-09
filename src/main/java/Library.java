@@ -21,5 +21,10 @@ public class Library {
         }
     }
 
+    public Book removeBook() {
+        return this.stock.remove(0);
+    }
+
+    
 }
 
