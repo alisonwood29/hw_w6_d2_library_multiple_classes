@@ -24,6 +24,13 @@ public class TestLibrary {
         library.addBook(book);
         assertEquals(1, library.stockCount());
     }
-    
 
-}
+    @Test
+    public void isStockFull(){
+        for (int i = 0; i < 12; i++) {
+            library.addBook(book);
+        }
+        assertEquals(10, library.stockCount());
+        }
+    }
+
